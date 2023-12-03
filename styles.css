@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-color: #efeafb24;
+}
+
+.main-container {
+  margin-top: 20vh;
+  height: 100%;
+  width: 100%;
+}
+
+.title {
+  font-size: 52px;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+#number {
+  margin: 10px 0;
+  font-size: 72px;
+}
+
+#decrease-btn,
+#increase-btn,
+#reset-btn {
+  padding: 5px 20px;
+  background: transparent;
+  margin: 5px 10px;
+  border-radius: 4px;
+}
+
+#decrease-btn {
+  border: solid 2px red;
+}
+
+#increase-btn {
+  border: solid 2px green;
+}
+
+#reset-btn {
+  border: solid 2px gray;
+}
