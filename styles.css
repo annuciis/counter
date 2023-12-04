@@ -8,13 +8,13 @@ body {
   background-color: #efeafb24;
 }
 
-.main-container {
+.container {
   margin-top: 20vh;
   height: 100%;
   width: 100%;
 }
 
-.title {
+#title {
   font-size: 52px;
   font-family: monospace;
   font-weight: bold;
