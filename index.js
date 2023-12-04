@@ -12,6 +12,18 @@ buttons.forEach((button) => {
     } else if (button.innerText == "Increase") {
       counter++;
     }
+
+    if (counter > 0) {
+      value.style.color = "green";
+    }
+    if (counter < 0) {
+      value.style.color = "red";
+    }
+    if (counter === 0) {
+      value.style.color = "black";
+    }
+
     value.innerText = counter;
   });
 });
+
